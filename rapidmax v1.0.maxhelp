@@ -666,7 +666,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 886.0, 761.0 ],
+						"rect" : [ 34.0, 105.0, 886.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -888,8 +888,21 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "int", "", "" ],
-									"parameter_enable" : 0,
+									"parameter_enable" : 1,
 									"patching_rect" : [ 95.096715369820686, 315.611895503603137, 118.5, 23.0 ],
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_enum" : [ "regress", "classify" ],
+											"parameter_initial" : [ 0 ],
+											"parameter_initial_enable" : 1,
+											"parameter_longname" : "tab",
+											"parameter_mmax" : 1,
+											"parameter_shortname" : "tab",
+											"parameter_type" : 2
+										}
+
+									}
+,
 									"tabs" : [ "regress", "classify" ],
 									"varname" : "tab"
 								}
@@ -4077,7 +4090,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 521.913270449638503, 305.611895503603137, 132.841166650440073, 22.168445122242019 ],
 									"rounded" : 10.0,
-									"text" : "classify my_regression",
+									"text" : "regress my_regression",
 									"textoncolor" : [ 0.54891836643219, 0.806695818901062, 0.327823400497437, 1.0 ],
 									"tosymbol" : 0
 								}
@@ -18354,7 +18367,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 886.0, 761.0 ],
+						"rect" : [ 0.0, 26.0, 886.0, 761.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -22298,6 +22311,7 @@
 			"obj-2::obj-1::obj-6" : [ "tab[3]", "tab", 0 ],
 			"obj-3::obj-14" : [ "multislider[29]", "multislider[1]", 0 ],
 			"obj-3::obj-15" : [ "multislider[30]", "multislider[1]", 0 ],
+			"obj-4::obj-15" : [ "tab", "tab", 0 ],
 			"obj-5::obj-13" : [ "number[15]", "number[2]", 0 ],
 			"obj-5::obj-2::obj-13" : [ "number[2]", "number", 0 ],
 			"obj-5::obj-2::obj-35" : [ "multislider[15]", "multislider[1]", 0 ],
