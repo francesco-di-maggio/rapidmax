@@ -140,7 +140,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 14.0, 295.0, 103.0, 22.0 ],
-									"text" : "ready_to_preform"
+									"text" : "ready_to_perform"
 								}
 
 							}
