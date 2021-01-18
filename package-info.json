@@ -17,7 +17,7 @@
     "package_extra" : {
 		
     },
-    "tags" : ["sound-gesture design", "interactive machine learning"],
-    "version" : "1.0",
+    "tags" : ["gesture-sound interaction design", "machine learning"],
+    "version" : "0.1",
     "website" : "none"
 }
