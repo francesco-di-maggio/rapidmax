@@ -4,67 +4,53 @@
 <c74object name="rapidmax">
 
 	<digest>
-		 A machine learning object for gesture-sound interaction design
+		 Predict output based on new input data
 	</digest>
 
 	<description>
-		A machine learning object that provides a set of supervised machine learning algorithms for gesture-sound interaction design. By implementing multilayer perceptron (MLP) artificial neural networks (ANN), it allows to train linear regression and k-nearest neighbour classification models between multiple dimensions of input and target output. 
+		A machine learning object for gesture-sound interaction design.
 	</description>
 
 	<!--METADATA-->
 	<metadatalist>
 		<metadata name="author">Francesco Di Maggio, Atau Tanaka and Michael Zbyszyński</metadata>
-		<metadata name="tag">Gesture-sound interaction design</metadata>
-		<metadata name="tag">Interactive machine learning</metadata>
+		<metadata name="tag">gesture-sound interaction design</metadata>
+		<metadata name="tag">interactive machine learning</metadata>
 	</metadatalist>
 
 	<!--INLETS-->
 	<inletlist>
-		<inlet id="0" type="list">
-			<digest>(list) input a list of floats to a trained rapidmax object</digest>
+		<inlet id="0" type="float">
+			<digest>input - input a list of floats to a trained rapidmax object</digest>
 		</inlet>
 	</inletlist>
 
 	<!--OUTLETS-->
 	<outletlist>
-		<outlet id="0" type="list">
-			<digest>(list) output list prediction based on the trained model</digest>
+		<outlet id="0" type="float">
+			<digest>output - output list prediction based on the training model</digest>
 		</outlet>
-		<outlet id="1" type="list">
-			<digest>(bang) training is done</digest>
+		<outlet id="1" type="bang">
+			<digest>bang: done bang when training is done</digest>
 		</outlet>
 	</outletlist>
-
-	<!--ARGUMENTS-->
-	<objarglist>
-		<objarg name="name">
-			<digest>Name of the model: must be same as dict.</digest>
-		</objarg>
-	</objarglist>
 
 	<!--MESSAGES-->
 	<methodlist>
 		<method name="regress">
-			<arglist>
-				<!-- <arg name="regress" optional="0" type="symbol" /> -->
-			<arg name="regress" />
-			</arglist>
 			<digest>
-				Train a neural network to predict values inbetween data points.
+				Train a neural network model
 			</digest>
 			<description>
-				The message 'regress', followed by the name of a dict to which rapidmax adddress the holding training set data, will train a neural network to predict values inbetween data points.
+				The message 'regress', followed by the name of a dict that holds the training set (and to which the rapidmax object refers to), will train a neural network model to predict values inbetween data points.
 			</description>
 		</method>
 		<method name="classify">
-			<arglist />
-				<arg name="classify"/>
-			<arglist />
 			<digest>
-				Train a k-nearest neighbor classifier to predict the closest data point.
+				Train a k-nearest neighbour classifier model
 			</digest>
 			<description>
-				The message 'classify', followed by the name of a dict to which rapidmax adddress the holding training set data,will train a k-nearest neighbor classifier to predict the closest data point.
+				The message 'classify', followed by the name of a dict that holds the training set (and to which the rapidmax object refers to), will train a k-nearest neighbour classifier model to predict the closest data point.
 			</description>
 		</method>
 	</methodlist>
