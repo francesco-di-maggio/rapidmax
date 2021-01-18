@@ -1,8 +1,8 @@
 {
-    "author" : "Francesco Di Maggio",
-    "description" : "A collection of Max patches for creative machine learning and gesture-sound interaction design.",
+    "author" : "Francesco Di Maggio, Atau Tanaka and Michael Zbyszyński",
+    "description" : "A machine learning object for gesture-sound interaction design.",
     "homepatcher" : "rapidmax.examples.maxpat",
-    "max_version_min" : "8.1", "max_version_max" : "none",
+    "max_version_min" : "7.1", "max_version_max" : "none",
     "name" : "rapidmax",
     "os" : {
         "macintosh" : {
@@ -15,9 +15,9 @@
         }
     },
     "package_extra" : {
-
+		
     },
-    "tags" : ["gesture design", "machine learning"],
-    "version" : "0.2",
+    "tags" : ["sound-gesture design", "interactive machine learning"],
+    "version" : "1.0",
     "website" : "none"
 }
