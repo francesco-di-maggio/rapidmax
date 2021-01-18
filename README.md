@@ -7,5 +7,5 @@ See rapidmax.maxhelp for how to use the object, just drag the rapidmax.mxo into 
 ## Installation
 Download the .zip file. Copy the rapidmax folder in your max "packages" folder, quit and reopen max.
 
-## How to
+## How it works
 See the rapidmax help file (help/rapidmax.maxhelp) for how to use the object.
