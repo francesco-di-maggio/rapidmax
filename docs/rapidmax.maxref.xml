@@ -21,17 +21,20 @@
 	<!--INLETS-->
 	<inletlist>
 		<inlet id="0" type="list">
-			<digest>input - input a list of floats to a trained rapidmax object</digest>
+			<!-- <digest>input - input a list of floats to a trained rapidmax object</digest> -->
+				<digest>input</digest>
 		</inlet>
 	</inletlist>
 
 	<!--OUTLETS-->
 	<outletlist>
 		<outlet id="0" type="list">
-			<digest>output - output list prediction based on the training model</digest>
+			<!-- <digest>output - output list prediction based on the training model</digest> -->
+			<digest>output</digest>
 		</outlet>
 		<outlet id="1" type="bang">
-			<digest>bang: done bang when training is done</digest>
+			<!-- <digest>bang: done bang when training is done</digest> -->
+			<digest>bang</digest>
 		</outlet>
 	</outletlist>
 
