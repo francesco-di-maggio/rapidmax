@@ -16,4 +16,4 @@ If not, you can [download the latest release here](https://github.com/francesco-
 
 ## How it works
 
-Open the help file (rapidmax/help/rapidmax.maxhelp) for how to use the object.
+Open the help file (rapidmax-help-main/help/rapidmax.maxhelp) for how to use the object.
