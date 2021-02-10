@@ -11180,8 +11180,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 219.911394327878781, 257.1180314997805, 153.0, 25.0 ],
-									"text" : "or send it as message"
+									"patching_rect" : [ 261.911394327878781, 257.1180314997805, 164.0, 25.0 ],
+									"text" : "or send it as a message"
 								}
 
 							}
@@ -11198,7 +11198,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 376.911394327878781, 259.1180314997805, 21.269541770219803, 21.0 ],
+									"patching_rect" : [ 429.911394327878781, 259.1180314997805, 21.269541770219803, 21.0 ],
 									"rounded" : 60.0,
 									"text" : "1b",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -11212,8 +11212,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 155.0, 259.1180314997805, 61.0, 22.0 ],
-									"text" : "my_set_1"
+									"patching_rect" : [ 166.911394327878781, 259.1180314997805, 93.0, 22.0 ],
+									"presentation_linecount" : 2,
+									"text" : "my_new_model"
 								}
 
 							}
@@ -11230,7 +11231,7 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 376.911394327878781, 225.0, 21.269541770219803, 21.0 ],
+									"patching_rect" : [ 429.911394327878781, 225.0, 21.269541770219803, 21.0 ],
 									"rounded" : 60.0,
 									"text" : "1a",
 									"textcolor" : [ 0.34902, 0.34902, 0.34902, 1.0 ]
@@ -11342,8 +11343,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 465.153879565000352, 474.00324790954096, 204.0, 21.0 ],
-									"text" : "model type, followed by dict name",
+									"patching_rect" : [ 383.153879565000352, 351.0, 72.0, 21.0 ],
+									"text" : "model type",
 									"textcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
 								}
 
@@ -11371,8 +11372,8 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 168.524348637057415, 223.0, 205.0, 25.0 ],
-									"text" : "type here the training set name"
+									"patching_rect" : [ 168.524348637057415, 223.0, 257.0, 25.0 ],
+									"text" : "type here the name of a new training set"
 								}
 
 							}
@@ -11386,7 +11387,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 312.524348637057415, 472.41902534841995, 148.628370970487595, 24.168445122242019 ],
 									"rounded" : 10.0,
-									"text" : " ",
+									"text" : "regress my_new_model",
 									"texton" : "",
 									"textoncolor" : [ 0.54891836643219, 0.806695818901062, 0.327823400497437, 1.0 ],
 									"tosymbol" : 0,
@@ -11627,7 +11628,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-2", 0 ],
-									"midpoints" : [ 164.5, 338.55901574989025, 58.5, 338.55901574989025 ],
+									"midpoints" : [ 176.411394327878781, 338.55901574989025, 58.5, 338.55901574989025 ],
 									"order" : 1,
 									"source" : [ "obj-8", 0 ]
 								}
@@ -11636,7 +11637,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-33", 0 ],
-									"midpoints" : [ 164.5, 338.55901574989025, 292.024348637057415, 338.55901574989025 ],
+									"midpoints" : [ 176.411394327878781, 338.55901574989025, 292.024348637057415, 338.55901574989025 ],
 									"order" : 0,
 									"source" : [ "obj-8", 0 ]
 								}
@@ -13100,7 +13101,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 417.232053165818627, 423.0, 51.0, 22.0 ],
-									"text" : "initialise",
+									"text" : "initialize",
 									"textcolor" : [ 0.54891836643219, 0.806695818901062, 0.327823400497437, 1.0 ]
 								}
 
@@ -13120,12 +13121,13 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-50",
-									"linecount" : 2,
+									"linecount" : 3,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 376.911394327878781, 253.0, 267.0, 33.0 ],
-									"text" : "This way you can load a trainied model and run. \nIt is useful for rapid recall, but not modifiable."
+									"patching_rect" : [ 376.911394327878781, 253.0, 320.0, 47.0 ],
+									"presentation_linecount" : 3,
+									"text" : "This way you can load a trainied model, and run. \nIt is useful for rapid recall, but the model is not modifiable.\nA model needs first to be trained before writing it into a file."
 								}
 
 							}
@@ -13282,8 +13284,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 9.0, 102.0, 371.0, 36.0 ],
-									"text" : "1. import / export a training set within a dict object. \n2. read / write to save or load a trained model within rapidmax. ",
+									"patching_rect" : [ 9.0, 102.0, 301.0, 36.0 ],
+									"presentation_linecount" : 2,
+									"text" : "1. Import / export a training set within a dict object. \n2. Read / write a trained model within rapidmax. ",
 									"textcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
 								}
 
@@ -13656,7 +13659,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 26.0, 810.0, 661.0 ],
+						"rect" : [ 34.0, 105.0, 810.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -19898,7 +19901,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 105.0, 810.0, 661.0 ],
+						"rect" : [ 0.0, 26.0, 810.0, 661.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
