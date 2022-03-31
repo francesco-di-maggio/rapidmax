@@ -1,6 +1,6 @@
 # rapidmax
 
-This is the [RapidLib](http://gitlab.doc.gold.ac.uk/rapid-mix/RapidLib/) C++ machine learning library wrapped into a max object
+This is the [RapidLib](http://gitlab.doc.gold.ac.uk/rapid-mix/RapidLib/) C++ machine learning library wrapped into a max object.
 
 ## About 
 A machine learning object for gesture-sound interaction design. It provides a set of supervised machine learning algorithms that implement multilayer perceptron artificial neural networks, allowing to train linear regression and k-nearerst neighbour classification models between multiple dimensions of input and target output, and predict new output values based on new input data. 
