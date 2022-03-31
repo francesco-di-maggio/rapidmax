@@ -18,13 +18,13 @@ If not, you can [download the latest release here](https://github.com/francesco-
 
 ## How it works
 
-Open the help file (rapidmax/help/rapidmax.maxhelp) for how to use the object.
+Open the helpfile (rapidmax/help/rapidmax.maxhelp) for how to use the object.
 
 ## Acknowledgments
 This object is one outcome of the RapidMix project, which received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N°644862.
 
 * MacOS version by Sam Parke Wolfe.
 * Windows version by Martin Townley.
-* Helpful, and examples by Francesco Di Maggio.
+* Helpfile, and examples by Francesco Di Maggio.
 
 © 2021 Goldsmiths University of London
