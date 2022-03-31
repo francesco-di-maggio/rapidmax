@@ -25,6 +25,6 @@ This object is one outcome of the RapidMix project, which received funding from 
 
 * MacOS version by Sam Parke Wolfe.
 * Windows version by Martin Townley.
-* Examples and help file by Francesco Di Maggio.
+* Helpful, and examples by Francesco Di Maggio.
 
 © 2021 Goldsmiths University of London
