@@ -23,8 +23,7 @@ Open the helpfile (rapidmax/help/rapidmax.maxhelp) for how to use the object.
 ## Acknowledgments
 This object is one outcome of the RapidMix project, which received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N°644862.
 
-* MacOS version by Sam Parke Wolfe.
-* Windows version by Martin Townley.
-* Helpfile, and examples by Francesco Di Maggio.
+* MacOS version by Sam Parke Wolfe —› [RapidMax](https://github.com/samparkewolfe/RapidMax)
+* Windows version by Martin Townley. [RapidMax_Windows](https://github.com/MartinTownley/RapidMax_Windows)
 
 © 2021 Goldsmiths University of London
